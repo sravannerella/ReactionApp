@@ -26,11 +26,13 @@ Please make sure to install nodejs and npm on your system before coming here.
       favicon.ico <- Image Asset
     src/          <- Source Code
       App.css
-      App.js      <- Actual App
+      App.js      <- Actual App for react to render
       App.test.js
       index.css
       index.js    <- Javascript entry point
       logo.svg
     ```
 
-
+## Understanding React.js
+  * App.js renders JSX (HTML)
+  
