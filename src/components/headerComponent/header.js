@@ -7,7 +7,7 @@ class Header extends Component{
     render() {
         return (
             <nav className="navbar navbar-light bg-light shadow">
-                <a className="navbar-brand text-capitalize font-weight-bold border-right" href="#hasd">Reaction</a>
+                <Link className="navbar-brand text-capitalize font-weight-bold border-right" to="/">Reaction</Link>
                 <img className="logo" src={Logo} alt="logo" />
                 <Link to="/Account">Sravan Nerella</Link>
             </nav>

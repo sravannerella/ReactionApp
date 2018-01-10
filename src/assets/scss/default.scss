@@ -29,3 +29,21 @@ body{
 .userPic{
     max-width: 250px;
 }
+
+.friendPic{
+    width: 50px;
+    height: 50px;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    width: calc(100% / 3);
+}
