@@ -1,6 +1,7 @@
 @import "_variables";
 @import "_inputStyles";
 @import "_header";
+@import "_media";
 @import "_shortcode";
 
 body{
@@ -11,8 +12,13 @@ body{
     box-shadow: 0 0px 0px rgba(0,0,0,.16), 0 2px 6px rgba(0,0,0,.23);
 }
 
+.card-img-top{
+    border-radius: 5px;
+}
+
 .lightShadow{
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    border: 0px solid #fff;
 }
 
 .logo {
@@ -44,6 +50,19 @@ body{
     flex-wrap: wrap;
 }
 
-.child{
-    width: calc(100% / 3);
+.spacingNegativeMargin{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.photos{
+    height: 250px;
+    .cardHeight{
+        height: 210px;
+        width: 100%;
+    }
+}
+
+.feedInfoChild{
+    width: calc(100% / 4);
 }
