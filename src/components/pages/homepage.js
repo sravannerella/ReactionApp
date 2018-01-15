@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProfilePic from './../profile/profileComponent/profilepic';
 import Friends from './../profile/profileComponent/friendsList';
 import Feed from './../profile/feed/feedComponent';
+import FeedCompose from './../profile/feed/Compose/feedCompose';
 import Photos from './../profile/profileComponent/photosComponent';
 
 let contacts = [
@@ -88,6 +89,7 @@ class HomePage extends Component {
 
                     <div className="col-lg-6 col-md-5 col-sm-12">
                         <Feed data={profile}/>
+                        <FeedCompose />
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-sm-12">

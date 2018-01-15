@@ -7,3 +7,18 @@ body{
 .btn{
     border-radius: 20px;
 }
+
+input, textarea{
+	resize: none;
+}
+
+.borderless{
+	border: none;
+	outline: 0;
+
+	&:focus{
+		outline: 0;
+		border: none;
+		box-shadow: none;
+	}
+}
